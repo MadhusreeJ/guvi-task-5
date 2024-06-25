@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            MY RESUME
+        </title>
+    </head>
+    <body>
+        <script>
+            let resume = [{
+                Name : "Madhusree J" ,
+                contact : "9790652899" ,
+                Email : "sreemaddy18@gmail.com",
+                Experience : {
+                    name : "Bahwan Cybertek",
+                    from : "Sept 2021",
+                    to : "May 2024",
+                    role : "Application Support Engineer"
+                } , 
+                Education : [
+                    {
+                        degree : "B.Tech IT",
+                        Year : "Aug 2017 - Aug 2021",
+                        Percentage : "78%" , 
+                        Institute : "Jeppiaar Institue of Technology, Chennai"
+                    }, 
+                    {
+                        degree : "Higher Secondary",
+                        Year : "Jun 2016 - Jun 2017",
+                        Percentage : "75%",
+                        Institue : "St. Joseph of Mat.Hr.Sec School, Neyveli"
+                    },
+                    {
+                        degree : "SSLC",
+                        Year : "Jun 2014 - Jun 2015",
+                        Percentage : "90%",
+                        Institue : "St. Joseph of Mat.Hr.Sec School, Neyveli"
+
+                    }
+                ],
+                Skills : ["HTML" , "CSS", "Angular"],
+                Achievements : `Received fameclub award at Bahwan Cybertek for being passionate at work.
+                               Received 1000 emplus points for being a hard worker at work.`,
+                Hobbies : ["Playing Badmitton" , "Reading books"]
+            }]
+
+            for(var i=0 ; i<resume.length;i++){
+                console.log(resume[i]);
+            }
+        </script>
+    </body>
+</html>
